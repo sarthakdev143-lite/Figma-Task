@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px 20px;
+        background-color: #fff;
+        box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        border-bottom: 1px solid #ddd; /* Border between header and main-nav */
+        }
+        
+        .logo-container {
+        display: flex;
+        align-items: center;
+        }
+        
+        .logo {
+        height: 40px;
+        width: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-right: 10px;
+        }
+        
+        .logo-img {
+        height: 100%;
+        width: auto;
+        }
+        
+        .logo-text {
+        display: flex;
+        flex-direction: column;
+        line-height: 1.2;
+        }
+        
+        .main-text {
+        font-size: 14px;
+        font-weight: bold;
+        }
+        
+        .sub-text {
+        font-size: 12px;
+        color: #666;
+        }
+        
+        .search-login-container {
+        display: flex;
+        align-items: center;
+        }
+        
+        .search-bar-container {
+        position: relative;
+        }
+        
+        .search-bar {
+        padding: 5px 10px;
+        border: 1px solid #ddd;
+        border-radius: 20px;
+        padding-right: 30px;
+        font-size: 14px;
+        width: 250px; /* Adjust width as needed */
+        }
+        
+        .search-icon {
+        position: absolute;
+        right: 10px;
+        top: 50%;
+        transform: translateY(-50%);
+        color: #888;
+        }
+        
+        .login-btn, .signin-btn {
+        padding: 5px 10px;
+        margin-left: 10px;
+        border: 2px solid pink;
+        border-radius: 4px;
+        cursor: pointer;
+        background-color: #fff;
+        transition: background-color 0.3s, color 0.3s;
+        }
+        
+        .login-btn {
+        color: #333;
+        }
+        
+        .login-btn
+        , .signin-btn
+        {
+        background-color: pink;
+        color: #fff;
+        }
+        
+        .main-nav {
+        background-color: #fff;
+        color: black;
+        padding: 10px 20px;
+        border-bottom: 1px solid #ddd; /* Border between main-nav and content */
+        }
+        
+        .main-nav ul {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+        display: flex;
+        }
+        
+        .main-nav ul li {
+        margin-right: 10px;
+        display: flex; /* Ensures all items are inline /
+        align-items: center; / Centers items vertically */
+        }
+        
+        .main-nav ul li a {
+        text-decoration: none;
+        color: black;
+        padding: 5px 10px;
+        border-radius: 4px;
+        transition: background-color 0.3s;
+        }
+        
+        .main-nav ul li a
+        {
+        background-color: #555;
+        }
+        
+        .button-group {
+        margin-left: 10px;
+        }
+        
+        .button {
+        padding: 5px 10px;
+        border: 2px solid pink;
+        border-radius: 4px;
+        cursor: pointer;
+        background-color: #fff;
+        transition: background-color 0.3s, color 0.3s;
+        margin-right: 10px;
+        }
+        
+        .button
+        {
+        background-color: dimgray;
+        color: #fff;
+        }
+        
+        .icon-group {
+        margin-left: 10px;
+        }
+        
+        .icon {
+        display: inline-block;
+        margin-right: 10px;
+        background-color: rgb(31, 62, 219);
+        padding: 8px;
+        border-radius: 50%;
+        }
+        
+        .icon i {
+        color: #fff;
+        font-size: 16px;
+        line-height: 1;
+        }
+    </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="logo-container">
+            <div class="logo">
+                <img src="logo.jpg" alt="Logo" class="logo-img">
+            </div>
+            <div class="logo-text">
+                <div class="main-text">The BIM Skills</div>
+                <div class="sub-text">|BIM Consulting|</div>
+            </div>
+        </div>
+        <div class="search-login-container">
+            <div class="search-bar-container">
+                <input type="text" class="search-bar" placeholder="Search...">
+                <i class="fas fa-search search-icon"></i>
+            </div>
+            <button class="login-btn">Login</button>
+            <button class="signin-btn">Sign In</button>
+        </div>
+    </header>
+    <nav class="main-nav">
+        <ul>
+            <li><a href="#">BIM Services</a></li>
+            <li><a href="#">BIM Courses</a></li>
+            <li><a href="#">Projects</a></li>
+            <li><a href="#">Blogs</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Contact</a>
+                <div class="button-group">
+                    <button class="button pink-btn">Send Enquiry</button>
+                    <button class="button pink-btn">Request A Quote</button>
+                </div>
+                <div class="icon-group" style="margin-left: 250px;">
+                    <a href="#" class="icon whatsapp"><i class="fab fa-whatsapp"></i></a>
+                    <a href="#" class="icon call"><i class="fas fa-phone-alt"></i></a>
+                    <a href="#" class="icon facebook"><i class="fab fa-facebook-f"></i></a>
+                </div>
+            </li>
+        </ul>
+    </nav>
+    
+</body>
+</html>

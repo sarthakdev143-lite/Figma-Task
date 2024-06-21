@@ -1,0 +1,1367 @@
+body {
+    overflow-x: hidden;
+}
+
+.top {
+    width: 1439px;
+    height: 50px;
+    top: 20px;
+    left: 1px;
+    border: 10px solid white;
+
+    .BIM {
+        width: 136px;
+        height: 45px;
+        margin-top: 8px;
+        margin-left: 35px;
+    }
+
+    .frame3 {
+        width: Hug (537px)px;
+        height: Hug (50px)px;
+        left: 868px;
+        gap: 26px;
+        opacity: 0px;
+    }
+
+    .box1 {
+        width: Fixed (227px)px;
+        height: Fixed (50px)px;
+        padding: 8px 20px 8px 16px;
+        gap: 16px;
+        border-radius: 12px 0px 0px 0px;
+    }
+
+    .slogo {
+        margin-left: 1210px;
+        margin-top: -24px;
+    }
+
+}
+
+.text-serch {
+    margin-left: 1000px;
+    background-color: rgb(252, 252, 252);
+    margin-top: -33px;
+
+    .search-input {
+        border: none;
+        background-color: rgb(238, 238, 238);
+    }
+}
+
+.container1 {
+    border: 1px rgb(235, 237, 255, 1) solid;
+    height: 38px;
+    width: 225px;
+    margin-left: 990px;
+    margin-top: -33px;
+    background-color: rgb(235, 237, 255, 1);
+    border-radius: 12px;
+}
+
+.icon {
+    margin-left: 1180px;
+    margin-top: -18px;
+    font-weight: bolder;
+}
+
+.button2 {
+    margin-left: 1220px;
+    margin-top: -40px;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 12px;
+    padding: 8px, 20px, 8px, 16px;
+    height: 40px;
+    width: 200px;
+    gap: 22px;
+
+    .log {
+        margin-left: 20px;
+        height: 25px;
+        width: 70px;
+        border: 2px solid rgba(255, 0, 107, 1);
+        border-radius: 4px;
+        color: aliceblue;
+        background-color: rgba(255, 0, 107, 1);
+    }
+
+    .sign {
+        border: 1px solid rgba(255, 0, 107, 1);
+        ;
+        border-color: rgba(255, 0, 107, 1);
+        ;
+        border-radius: 4px;
+        height: 25px;
+        width: 70px;
+        color: rgba(255, 0, 107, 1);
+        margin-left: 10px;
+        margin-top: 7px;
+    }
+}
+
+.frameContent {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    border-bottom: 1px solid #ccc;
+    border-top: 1px solid #ccc;
+
+    .menu {
+        display: flex;
+        gap: 2rem;
+
+        a {
+            font-size: 15px;
+            padding: 8px;
+            margin-left: 35px;
+            text-decoration: none;
+            color: rgb(0, 0, 0);
+            font-weight: bold;
+        }
+    }
+}
+
+.buttons a {
+    color: rgb(14, 14, 14);
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: #000 solid;
+}
+
+.frameContent .Send-Enquiry {
+    padding: 8px 15px 8px 15px;
+    background-color: black;
+    border-radius: 5px;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.frameContent .Request-Quote {
+    background-color: rgb(255, 255, 255);
+    padding: 8px 15px 8px 15px;
+    border: 1px solid rgba(255, 0, 107, 1);
+    color: black;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.frameContent {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    width: 100%;
+
+    .icon-container {
+        width: 217.5px;
+        height: 45px;
+        background-color: #000D82;
+        border: 1px solid #000D82;
+        position: relative;
+
+        &::after {
+            content: '';
+            position: absolute;
+            top: -6%;
+            left: -9%;
+            width: 0;
+            height: 0;
+            scale: 0.9;
+            border-bottom: 52px solid #000D82;
+            border-left: 20px solid transparent;
+        }
+
+        .icons {
+            display: flex;
+            height: 100%;
+            justify-content: space-evenly;
+            align-items: center;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        i,
+        span {
+            color: #fff;
+            font-size: 2rem;
+        }
+    }
+}
+
+.whole {
+    text-align: center;
+    margin-top: -10px;
+
+}
+
+.service {
+    text-align: center;
+    styleName: Text md/Semibold;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: center;
+    color: #001AFF;
+}
+
+.what {
+    styleName: Display lg/Semibold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
+    font-weight: 600;
+    line-height: 60px;
+    letter-spacing: -0.02em;
+    text-align: center;
+    color: #101828;
+
+}
+
+.ser {
+    color: #FF006B;
+    font-size: 35px;
+    font-weight: 600;
+    line-height: 60px;
+    letter-spacing: -0.02em;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.pro {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
+    font-weight: 600;
+    line-height: 60px;
+    letter-spacing: -0.02em;
+    text-align: center;
+    color: #101828;
+}
+
+.bimconsult {
+    width: 1380px;
+    height: 274px;
+    top: 322px;
+    left: 64px;
+    margin-left: 60px;
+}
+
+.BIMC {
+    color: #FF006B;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 54px;
+    text-align: left;
+    letter-spacing: 0.9px;
+}
+
+.consult {
+    color: #101828;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 54px;
+    text-align: left;
+    letter-spacing: 0.9px;
+}
+
+.human {
+
+    position: absolute;
+    width: 69px;
+    height: 69px;
+    top: 310px;
+    border-radius: 12px;
+}
+
+.IMP {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 21px;
+    font-weight: 700;
+    line-height: 100px;
+    letter-spacing: 0.6px;
+    color: #161C2D;
+    margin-left: 90px;
+}
+
+.human1 {
+    position: absolute;
+    width: 69px;
+    height: 69px;
+    top: 410px;
+    border-radius: 12px;
+}
+
+.EP {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 21px;
+    font-weight: 700;
+    line-height: 100px;
+    letter-spacing: 0.6px;
+    color: #161C2D;
+    margin-left: 90px;
+}
+
+.Ritika {
+    margin-top: -155px;
+}
+
+.dia {
+
+    position: absolute;
+    width: 69px;
+    height: 69px;
+    top: 310px;
+    border-radius: 12px;
+    margin-left: 35rem;
+}
+
+.AD {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 21px;
+    font-weight: 700;
+    line-height: 10px;
+    letter-spacing: 0.6px;
+    color: #161C2D;
+    margin-left: 40.625rem;
+    margin-bottom: -200px;
+}
+
+.Ritika2 {
+    margin-top: 80px;
+}
+
+.dia1 {
+    position: absolute;
+    width: 69px;
+    height: 69px;
+    top: 310px;
+    border-radius: 12px;
+    margin-left: 35rem;
+    margin-top: 6.5rem;
+}
+
+.COB {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 21px;
+    font-weight: 800;
+    line-height: 1px;
+    letter-spacing: 0.6px;
+    margin-left: 40.625rem;
+    margin-bottom: 40rem;
+
+}
+
+.Ritika3 {
+    margin-top: -165px;
+}
+
+.clc {
+    position: absolute;
+    width: 69px;
+    height: 69px;
+    top: 310px;
+    border-radius: 12px;
+    margin-left: 65rem;
+}
+
+.DI {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 21px;
+    font-weight: 700;
+    line-height: 100px;
+    letter-spacing: 0.6px;
+    color: #161C2D;
+    margin-left: 1140px;
+}
+
+.clc1 {
+    position: absolute;
+    width: 69px;
+    height: 69px;
+    top: 310px;
+    border-radius: 12px;
+    margin-left: 65rem;
+    margin-top: 6.5rem;
+}
+
+.FM {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 21px;
+    font-weight: 700;
+    line-height: 100px;
+    letter-spacing: 0.6px;
+    color: #161C2D;
+    margin-left: 1140px;
+}
+
+.bimser {
+    width: 1259px;
+    height: 274px;
+    top: 322px;
+    left: 64px;
+    margin-left: 60px;
+}
+
+.BIMs {
+    color: #FF006B;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 54px;
+    text-align: left;
+    letter-spacing: 0.9px;
+}
+
+.consults {
+    color: #101828;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 54px;
+    text-align: left;
+    letter-spacing: 0.9px;
+}
+
+.human2 {
+    position: absolute;
+    width: 69px;
+    height: 69px;
+    top: 580.5px;
+    border-radius: 12px;
+}
+
+.ThreeD {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 21px;
+    font-weight: 700;
+    line-height: 100px;
+    letter-spacing: 0.6px;
+    color: #161C2D;
+    margin-left: 90px;
+}
+
+.human3 {
+    position: absolute;
+    width: 69px;
+    height: 69px;
+    top: 42.5rem;
+    border-radius: 12px;
+}
+
+.STB {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 21px;
+    font-weight: 700;
+    line-height: 100px;
+    letter-spacing: 0.6px;
+    color: #161C2D;
+    margin-left: 90px;
+}
+
+.human4 {
+    position: absolute;
+    width: 69px;
+    height: 69px;
+    top: 49rem;
+    border-radius: 12px;
+}
+
+.RFC {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 21px;
+    font-weight: 700;
+    line-height: 100px;
+    letter-spacing: 0.6px;
+    color: #161C2D;
+    margin-left: 90px;
+}
+
+.Ritika4 {
+    margin-top: -260.5px;
+}
+
+.dia2 {
+    position: absolute;
+    width: 69px;
+    height: 69px;
+    top: 580.5px;
+    border-radius: 12px;
+    margin-left: 35rem;
+}
+
+.FourD {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 21px;
+    font-weight: 700;
+    line-height: 1px;
+    letter-spacing: 0.6px;
+    color: #161C2D;
+    margin-left: 40.625rem;
+    margin-bottom: 10rem;
+}
+
+.Ritika5 {
+    margin-top: 30px;
+    margin-left: 560.5px;
+}
+
+.dia3 {
+    position: absolute;
+    width: 69px;
+    height: 69px;
+    top: 680.5px;
+    border-radius: 12px;
+    margin-left: 0.1rem;
+}
+
+.SCD {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 21px;
+    font-weight: 700;
+    line-height: 100px;
+    letter-spacing: 0.6px;
+    color: #161C2D;
+    margin-left: 95px;
+}
+
+.Ritika6 {
+    margin-top: 5px;
+    width: 1400px;
+}
+
+.dia4 {
+    position: absolute;
+    width: 69px;
+    height: 69px;
+    top: 48.75rem;
+    border-radius: 12px;
+    margin-left: 35rem;
+}
+
+.Clash {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 21px;
+    font-weight: 700;
+    line-height: 100px;
+    letter-spacing: 0.6px;
+    color: #161C2D;
+    margin-left: 658px;
+}
+
+.Ritika7 {
+    margin-top: -299px;
+    width: 1400px;
+}
+
+.clc2 {
+    position: absolute;
+    width: 69px;
+    height: 69px;
+    top: 580.5px;
+    border-radius: 12px;
+    margin-left: 65rem;
+}
+
+.FiveD {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 21px;
+    font-weight: 700;
+    line-height: 100px;
+    letter-spacing: 0.6px;
+    color: #161C2D;
+    margin-left: 1140px;
+}
+
+.Ritika8 {
+    width: 1400px;
+}
+
+.clc3 {
+    position: absolute;
+    width: 69px;
+    height: 69px;
+    top: 310px;
+    border-radius: 12px;
+    margin-left: 65rem;
+    margin-top: 23.5rem;
+}
+
+.Cad {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 21px;
+    font-weight: 700;
+    line-height: 100px;
+    letter-spacing: 0.6px;
+    color: #161C2D;
+    margin-left: 1140px;
+}
+
+.Ritika9 {
+    margin-top: -5px;
+    width: 1400px;
+}
+
+.clc4 {
+    position: absolute;
+    width: 69px;
+    height: 69px;
+    top: 310px;
+    border-radius: 12px;
+    margin-left: 65rem;
+    margin-top: 29.5rem;
+}
+
+.BIMAuto {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 21px;
+    font-weight: 700;
+    line-height: 100px;
+    letter-spacing: 0.6px;
+    color: #161C2D;
+    margin-left: 1140px;
+}
+
+.archiser {
+    width: 1259px;
+    height: 2px;
+    top: 322px;
+    left: 64px;
+    margin-left: 60px;
+}
+
+.archi {
+    color: #FF006B;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 230px;
+    text-align: left;
+    letter-spacing: 0.9px;
+}
+
+.aser {
+    color: #101828;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 54px;
+    text-align: left;
+    letter-spacing: 0.9px;
+}
+
+.Ritu1 {
+    margin-top: -50px;
+}
+
+.person1 {
+    position: absolute;
+    width: 69px;
+    height: 69px;
+    top: 950.5px;
+    border-radius: 12px;
+}
+
+.IMPA {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 21px;
+    color: #161C2D;
+    margin-left: 90px;
+    margin-bottom: 100px;
+}
+
+.Ritu2 {
+    margin-top: 40px;
+}
+
+.person2 {
+    position: absolute;
+    width: 69px;
+    height: 69px;
+    top: 1050px;
+    border-radius: 12px;
+}
+
+.EPlan {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 21px;
+    font-weight: 700;
+    line-height: 100px;
+    letter-spacing: 0.6px;
+    color: #161C2D;
+    margin-left: 90px;
+}
+
+.Ritu3 {
+    margin-top: -200px;
+    width: 1400px;
+}
+
+.diamond1 {
+    position: absolute;
+    width: 69px;
+    height: 69px;
+    top: 947.5px;
+    border-radius: 12px;
+    margin-left: 35rem;
+}
+
+.Ado {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 21px;
+    font-weight: 700;
+    line-height: 100px;
+    letter-spacing: 0.6px;
+    color: #161C2D;
+    margin-left: 658px;
+
+}
+
+.Ritu4 {
+    width: 1400px;
+}
+
+.diamond2 {
+    position: absolute;
+    width: 69px;
+    height: 69px;
+    top: 1050px;
+    border-radius: 12px;
+    margin-left: 35rem;
+}
+
+.COBIE {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 21px;
+    font-weight: 700;
+    line-height: 100px;
+    letter-spacing: 0.6px;
+    color: #161C2D;
+    margin-left: 658px;
+}
+
+.Ritu5 {
+    margin-top: -200px;
+    width: 1400px;
+}
+
+.clock1 {
+
+    position: absolute;
+    width: 69px;
+    height: 69px;
+    top: 476px;
+    border-radius: 12px;
+    margin-left: 65rem;
+    margin-top: 29.5rem;
+}
+
+.DInte {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 21px;
+    font-weight: 700;
+    line-height: 100px;
+    letter-spacing: 0.6px;
+    color: #161C2D;
+    margin-left: 1140px;
+}
+
+.Ritu6 {
+    width: 1400px;
+}
+
+.clock2 {
+
+    position: absolute;
+    width: 69px;
+    height: 69px;
+    top: 580px;
+    border-radius: 12px;
+    margin-left: 65rem;
+    margin-top: 29.5rem;
+}
+
+.FMD {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 21px;
+    font-weight: 700;
+    line-height: 100px;
+    letter-spacing: 0.6px;
+    color: #161C2D;
+    margin-left: 1140px;
+}
+
+.structureser {
+    width: 1259px;
+    height: 274px;
+    top: 322px;
+    left: 64px;
+    margin-left: 60px;
+}
+
+.struct {
+    color: #FF006B;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 780px;
+    text-align: left;
+    letter-spacing: 0.9px;
+}
+
+.strser {
+    color: #101828;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 780px;
+    text-align: left;
+    letter-spacing: 0.9px;
+}
+
+.Ritu7 {
+    margin-top: -320px;
+}
+
+.person3 {
+    position: absolute;
+    width: 69px;
+    height: 69px;
+    top: 1230px;
+    border-radius: 12px;
+}
+
+.IMPA1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 21px;
+    color: #161C2D;
+    margin-left: 90px;
+    margin-bottom: 100px;
+}
+
+.Ritu8 {
+    margin-top: 40px;
+}
+
+.person4 {
+    position: absolute;
+    width: 69px;
+    height: 69px;
+    top: 1330px;
+    border-radius: 12px;
+}
+
+.EPlan2 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 21px;
+    font-weight: 700;
+    line-height: 100px;
+    letter-spacing: 0.6px;
+    color: #161C2D;
+    margin-left: 90px;
+}
+
+.Ritu9 {
+    margin-top: -200px;
+    width: 1400px;
+}
+
+.diamond3 {
+    position: absolute;
+    width: 69px;
+    height: 69px;
+    top: 1230px;
+    border-radius: 12px;
+    margin-left: 35rem;
+}
+
+.Ado1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 21px;
+    font-weight: 700;
+    line-height: 100px;
+    letter-spacing: 0.6px;
+    color: #161C2D;
+    margin-left: 658px;
+}
+
+.diamond4 {
+    position: absolute;
+    width: 69px;
+    height: 69px;
+    top: 1330px;
+    border-radius: 12px;
+    margin-left: 35rem;
+}
+
+.COBIE2 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 21px;
+    font-weight: 700;
+    line-height: 100px;
+    letter-spacing: 0.6px;
+    color: #161C2D;
+    margin-left: 658px;
+}
+
+.Ritu10 {
+    margin-top: -200px;
+    width: 1400px;
+
+}
+
+.clock3 {
+    position: absolute;
+    width: 69px;
+    height: 69px;
+    top: 758px;
+    border-radius: 12px;
+    margin-left: 65rem;
+    margin-top: 29.5rem;
+}
+
+.DInte1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 21px;
+    font-weight: 700;
+    line-height: 100px;
+    letter-spacing: 0.6px;
+    color: #161C2D;
+    margin-left: 1140px;
+}
+
+.Ritu11 {
+    margin-top: -4px;
+    width: 1400px;
+}
+
+.clock4 {
+    position: absolute;
+    width: 69px;
+    height: 69px;
+    top: 855.5px;
+    border-radius: 12px;
+    margin-left: 65rem;
+    margin-top: 29.5rem;
+}
+
+.FMD2 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 21px;
+    font-weight: 700;
+    line-height: 100px;
+    letter-spacing: 0.6px;
+    color: #161C2D;
+    margin-left: 1140px;
+}
+
+.visualser {
+    width: 1259px;
+    height: 274px;
+    top: 322px;
+    left: 64px;
+    margin-left: 60px;
+}
+
+.visual {
+    color: #FF006B;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 780px;
+    text-align: left;
+    letter-spacing: 0.9px;
+}
+
+.visualizationser {
+    color: #101828;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 780px;
+    text-align: left;
+    letter-spacing: 0.9px;
+}
+
+.person5 {
+    position: absolute;
+    width: 69px;
+    height: 69px;
+    top: 1510px;
+    border-radius: 12px;
+}
+
+.person6 {
+    position: absolute;
+    width: 69px;
+    height: 69px;
+    top: 1610px;
+    border-radius: 12px;
+}
+
+.diamond5 {
+    position: absolute;
+    width: 69px;
+    height: 69px;
+    top: 1510px;
+    border-radius: 12px;
+    margin-left: 35rem;
+}
+
+.diamond6 {
+    position: absolute;
+    width: 69px;
+    height: 69px;
+    top: 1610px;
+    border-radius: 12px;
+    margin-left: 35rem;
+}
+
+.clock5 {
+    position: absolute;
+    width: 69px;
+    height: 69px;
+    top: 1035px;
+    border-radius: 12px;
+    margin-left: 65rem;
+    margin-top: 29.5rem;
+}
+
+.clock6 {
+    position: absolute;
+    width: 69px;
+    height: 69px;
+    top: 1137px;
+    border-radius: 12px;
+    margin-left: 65rem;
+    margin-top: 29.5rem;
+}
+
+.Ritz1 {
+    margin-top: -320px;
+}
+
+.Ritz2 {
+    margin-top: 40px;
+}
+
+.Ritz3 {
+    margin-top: -200px;
+    width: 1400px;
+}
+
+.Ritz4 {
+    margin-top: -200px;
+    width: 1400px;
+}
+
+.Ritz5 {
+    margin-top: -4px;
+    width: 1400px;
+}
+
+.IMPA11 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 21px;
+    color: #161C2D;
+    margin-left: 90px;
+    margin-bottom: 100px;
+}
+
+.EPlan22 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 21px;
+    font-weight: 700;
+    line-height: 100px;
+    letter-spacing: 0.6px;
+    color: #161C2D;
+    margin-left: 90px;
+}
+
+.Ado11 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 21px;
+    font-weight: 700;
+    line-height: 100px;
+    letter-spacing: 0.6px;
+    color: #161C2D;
+    margin-left: 658px;
+}
+
+.COBIE22 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 21px;
+    font-weight: 700;
+    line-height: 100px;
+    letter-spacing: 0.6px;
+    color: #161C2D;
+    margin-left: 658px;
+}
+
+.DInte11 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 21px;
+    font-weight: 700;
+    line-height: 100px;
+    letter-spacing: 0.6px;
+    color: #161C2D;
+    margin-left: 1140px;
+}
+
+.FMD22 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 21px;
+    font-weight: 700;
+    line-height: 100px;
+    letter-spacing: 0.6px;
+    color: #161C2D;
+    margin-left: 1140px;
+}
+
+.CADser {
+    width: 1259px;
+    height: 274px;
+    top: 322px;
+    left: 64px;
+    margin-left: 60px;
+}
+
+.ccaadd {
+    color: #FF006B;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 780px;
+    text-align: left;
+    letter-spacing: 0.9px;
+}
+
+.ccaaddser {
+    color: #101828;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 780px;
+    text-align: left;
+    letter-spacing: 0.9px;
+}
+
+.person7 {
+    position: absolute;
+    width: 69px;
+    height: 69px;
+    top: 1780px;
+    border-radius: 12px;
+}
+
+.person8 {
+    position: absolute;
+    width: 69px;
+    height: 69px;
+    top: 1880px;
+    border-radius: 12px;
+}
+
+.diamond7 {
+    position: absolute;
+    width: 69px;
+    height: 69px;
+    top: 1780px;
+    border-radius: 12px;
+    margin-left: 35rem;
+}
+
+.diamond8 {
+    position: absolute;
+    width: 69px;
+    height: 69px;
+    top: 1880px;
+    border-radius: 12px;
+    margin-left: 35rem;
+}
+
+.clock7 {
+    position: absolute;
+    width: 69px;
+    height: 69px;
+    top: 1308px;
+    border-radius: 12px;
+    margin-left: 65rem;
+    margin-top: 29.5rem;
+}
+
+.clock8 {
+    position: absolute;
+    width: 69px;
+    height: 69px;
+    top: 1410px;
+    border-radius: 12px;
+    margin-left: 65rem;
+    margin-top: 29.5rem;
+}
+
+.Ritz6 {
+    margin-top: -320px;
+}
+
+.Ritz7 {
+    margin-top: 40px;
+}
+
+.Ritz8 {
+    margin-top: -200px;
+    width: 1400px;
+}
+
+.Ritz9 {
+    margin-top: -200px;
+    width: 1400px;
+}
+
+.Ritz10 {
+    width: 1400px;
+    margin-top: -4px;
+}
+
+.IMPA111 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 21px;
+    color: #161C2D;
+    margin-left: 90px;
+    margin-bottom: 100px;
+}
+
+.EPlan222 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 21px;
+    font-weight: 700;
+    line-height: 100px;
+    letter-spacing: 0.6px;
+    color: #161C2D;
+    margin-left: 90px;
+}
+
+.Ado111 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 21px;
+    font-weight: 700;
+    line-height: 100px;
+    letter-spacing: 0.6px;
+    color: #161C2D;
+    margin-left: 658px;
+}
+
+.COBIE222 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 21px;
+    font-weight: 700;
+    line-height: 100px;
+    letter-spacing: 0.6px;
+    color: #161C2D;
+    margin-left: 658px;
+}
+
+.DInte111 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 21px;
+    font-weight: 700;
+    line-height: 100px;
+    letter-spacing: 0.6px;
+    color: #161C2D;
+    margin-left: 1140px;
+}
+
+.FMD222 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 21px;
+    font-weight: 700;
+    line-height: 100px;
+    letter-spacing: 0.6px;
+    color: #161C2D;
+    margin-left: 1140px;
+}
+
+.footer {
+    background-color: #041283;
+    color: white;
+    padding: 40px 20px;
+    margin-top: 450px;
+    width: 1600px;
+
+}
+
+.footer-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 90px;
+}
+
+.company-info {
+    max-width: 300px;
+}
+
+.company-info .logo {
+    width: 100px;
+    margin-bottom: 20px;
+    margin-left: 130px;
+    height: 80px;
+    width: 265px;
+}
+
+.company-info p {
+    letter-spacing: 1px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: -10px;
+    margin-left: 140px;
+    width: 260px;
+    color: rgb(170, 170, 170);
+}
+
+.social-icons {
+    margin-left: 135px;
+    font-size: 32px;
+    color: rgb(170, 170, 170);
+}
+
+.footer-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    margin-right: 250px;
+}
+
+.link-section {
+    max-width: 200px;
+    margin-left: 100px;
+    letter-spacing: 0.2px;
+}
+
+.link-section h3 {
+    margin-left: -10px;
+    font-size: 15px;
+    font-weight: 400px;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    color: rgb(170, 170, 170);
+}
+
+.link-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.link-section ul li {
+    margin-bottom: 15px;
+    margin-left: -10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.link-section ul li a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}

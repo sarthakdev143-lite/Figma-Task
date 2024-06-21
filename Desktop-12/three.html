@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        
+.recent-posts {
+    margin-bottom: 40px;
+    }
+    
+    .recent-posts-container {
+    display: flex;
+    gap: 20px;
+    }
+    
+    .recent-post-left,
+    .recent-post-right {
+    flex: 1;
+    }
+    
+    .recent-post-left {
+    flex-basis: 40%;
+    }
+    
+    .recent-post-right {
+    flex-basis: 40%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    }
+    
+    .post {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+    
+    .post img {
+    width: 100%;
+    height: auto;
+    }
+    
+    .recent-post-right .post-content {
+    display: flex;
+    gap: 15px;
+    }
+    
+    .recent-post-right img {
+    width: 60%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 5px;
+    }
+    
+    .post-content {
+    padding: 15px;
+    }
+    
+    .post-content h3 {
+    margin: 0 0 10px;
+    font-size: 1.2em;
+    color: #007bff;
+    }
+    
+    .post-content p {
+    margin: 0 0 15px;
+    color: #555;
+    }
+    
+    .tags {
+    display: block;
+    margin-top: 10px;
+    color: #888;
+    font-size: 0.9em;
+    }
+    
+    .all-posts .posts-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    }
+    </style>
+</head>
+<body>
+    <p style="text-align: center;color:blueviolet;">our blog</p>
+<p style="text-align: center;font-size: 30px;color: black;">Stories and interviews</p>
+<div class="recent-posts">
+    <h2>Recent blog posts</h2>
+    <div class="recent-posts-container">
+        <div class="recent-post-left">
+            <div class="post">
+                <img src="pro.jpg" alt="UX review presentations" style="height: 7.7cm;">
+                <div class="post-content">
+                    <p style="color: blueviolet;"> Olivia Rhye 20 Jan 2022</p>
+                    <p style="font-size: 20px;color:black">UX review presentations</p>
+                    <p>How do you create compelling presentations that wow your colleagues and impress your managers?</p>
+                    
+                    <div class="tags1" style="margin-top: 0.5cm;">
+                        <span style="background-color: rgb(174, 153, 194);color:blueviolet">Design</span>
+                        <span style="background-color: rgb(96, 96, 170);color:blue">Research</span>
+                        <span style="background-color: rgb(133, 81, 98);color:palevioletred">Presentation</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="recent-post-right">
+            <div class="post">
+                <div class="post-content">
+                    <img src="onlap.jpg" alt="Migrating to Linear 101">
+                    <div>
+                        <p style="color: blueviolet;"> phoenix Baker 19 Jan 2022</p>
+                        <p style="font-size: 20px;color:black">Migrating to Linear 101</p>
+                        <p>Linear helps streamline software projects, sprints, tasks, and bug tracking. Here’s how to get started.</p>
+                        <div class="tags1" style="margin-top: 0.5cm;">
+                            <span style="background-color: rgb(115, 175, 115);color:green">Design</span>
+                            <span style="background-color: rgb(133, 81, 98);color:palevioletred">Research</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="post">
+                <div class="post-content">
+                    <img src="publap.jpg" alt="Building your API Stack">
+                    <div>
+                        <p style="color: blueviolet;"> Lana Steiner 18 Jan 2022</p>
+                        <p style="font-size: 20px;color:black">Building your API Stack</p>
+                        <p>The rise of RESTful APIs has been met by a rise in tools for creating, testing, and managing them.</p>
+                        <div class="tags1" style="margin-top: 0.5cm;">
+                            <span style="background-color: rgb(111, 148, 111);color:green">Software Development</span>
+                            <span style="background-color: rgb(133, 81, 98);color:palevioletred">Research</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>

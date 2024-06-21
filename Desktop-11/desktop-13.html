@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nav Bar with Search, Login, Sign Up</title>
+    <style>
+        body {
+    font-family: Arial, sans-serif;
+}
+
+nav {
+    
+    overflow: hidden;
+}
+
+.nav-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    float: left;
+}
+
+.nav-list li {
+    display: inline;
+}
+
+.nav-list li img {
+ 
+    list-style-type: none;
+            margin: 0;
+            padding: 0;
+            text-align: right;
+            width: 143px;
+}
+
+.nav-list li a:hover {
+    background-color: #111;
+    color: #fff;
+}
+
+.nav-right {
+    float: right;
+    display: flex;
+    align-items: center;
+}
+
+.nav-right input[type="text"] {
+    padding: 6px;
+    margin-right: 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: antiquewhite;
+}
+
+.nav-right button {
+    background-color: rgb(234, 208, 208);
+    color: #FF006B;
+    border-radius: 0%;
+    padding: 10px 16px;
+    margin-right: 10px;
+    cursor: pointer;
+    border-radius: 8px;
+    border-color: #FF006B;
+    color: #fff;
+
+    
+}
+
+.nav-right button:hover {
+    background-color: #FF006B;
+    /* text-decoration: aliceblue; */
+    /* color: white; */
+}
+
+/* second navebaar css */
+
+nav {
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.nav-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.nav-list li {
+    margin-right: 20px;
+}
+
+.nav-list li a {
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.nav-list li a:hover {
+    background-color: #111;
+   
+}
+
+.nav-buttons button {
+    background-color: white;
+    color: black;
+    border: #111;
+
+    padding: 10px 16px;
+    margin-right: 10px;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+.nav-buttons button:hover {
+    background-color: black;
+    text-decoration: aliceblue;
+    color: #fff;
+    
+}
+
+
+.nav-icons a {
+    margin-left: 10px;
+    
+}
+
+.nav-icons img {
+    width: 24px;
+    height: 24px;
+    
+}
+.nav-icons{
+    color: blue;
+    
+}
+/* inf and form section css */
+
+.container {
+    display: flex;
+    /* width: 80%; */
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.left-side,
+.right-side {
+    width: 50%;
+    padding: 20px;
+}
+
+.left-side img {
+    width: 100%;
+    
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    
+    font-weight: bold;
+}
+
+form input,
+form textarea {
+    margin-bottom: 70px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+form button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: blue;
+}
+.upcont{
+    text-align: center;
+}
+.upcont .pq1{
+    color: #FF006B;
+}
+.upcont .pq2{
+    color: #4CAF50;
+}
+
+/* information section in css */
+.why_us {
+    background: var(--light-gray-color);
+    padding: 60px 20px 120px;
+}
+.why_us .why_container {
+    display: flex;
+    justify-content: space-between;
+    gap: 80px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.why_container .why_items img {
+    width: 30%;
+    margin-bottom: 10px;
+}
+.why_container .why_items {
+    width: calc(100% / 3 - 80px);
+    padding: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+}
+.why_items .why_us_text {
+    text-align: center;
+}
+.why_items .why_us_text h3 {
+    margin: 20px 0;
+    font-size: 22px;
+}
+.why_items .why_us_text p {
+    font-size: 17px;
+  
+}
+/* footer section in css */
+footer {
+    background: blue;
+    color: var(--white-color);
+    padding: 60px 20px;
+    color: aliceblue;
+    overflow: hidden;
+}
+.footer_section {
+    display: flex;
+    justify-content: space-between;
+}
+.footer_section h3 {
+    font-size: 22px;
+    margin-bottom: 16px;
+    font-weight: 600;
+}
+.footer_section .footer_logo a {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    color: var(--white-color);
+}
+.footer_section .footer_logo a img {
+    max-width: 55px;
+}
+.footer_section .footer_logo a h2 {
+    font-weight: 600;
+}
+.footer_section .useful_links ul li {
+    margin: 20px 0;
+    text-decoration: none;
+}
+.footer_section .useful_links ul li a {
+    color: var(--white-color);
+    font-size: 17px;
+    text-decoration: none;
+}
+.footer_section .useful_links ul li a:hover {
+    /* text-decoration: underline; */
+    text-decoration: none;
+}
+.footer_section .contact_us ul li {
+    margin: 20px 0;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.footer_section .contact_us ul li i {
+    font-size: 25px;
+}
+.footer_section .contact_us ul li span {
+    font-size: 17px;
+}
+.footer_section .follow_us i {
+    font-size: 26px;
+    margin-right: 25px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    overflow: hidden;
+    text-decoration: none;
+}
+.footer_section .follow_us i:hover {
+    color: var(--secondary-color);
+}
+
+    </style>
+</head>
+<body>
+
+    <!-- first navebaar -->
+    <nav>
+        <ul class="nav-list">
+           
+            <li><img src="cl1.png" alt=""></li>
+        </ul>
+        <div class="nav-right">
+            <input type="text" placeholder="Search...">
+            <button>Login</button>
+            <button>Sign Up</button>
+        </div>
+    </nav>
+
+    <!-- second nave baar -->
+
+    <nav>
+        <ul class="nav-list">
+            <li><a href="#home">BIM Services</a></li>
+            <li><a href="#login">BIM Courses</a></li>
+            <li><a href="#signup">Projects</a></li>
+            <li><a href="#blog">Blog</a></li>
+            <li><a href="#">About us</a></li>
+            <li><a href="#">Contect</a></li>
+        </ul>
+        <div class="nav-buttons">
+            <button>Send Enquiry</button>
+            <button>Request A Quote</button>
+        </div>
+        <div class="nav-icons">
+            <a href="#whatsapp"><img src="whatup.png"></a>
+            <a href="#phone"><img src="phone.png" alt="Phone"></a>
+            <a href="#facebook"><img src="facebook.png" alt="Facebook"></a>
+        </div>
+    </nav>
+
+    <!-- img and form section  -->
+    <div class="container">
+        <div class="left-side">
+            <img src="h1.png" alt="Description of Image">
+           
+
+        </div>
+        <div class="right-side">
+            <form>
+                <h1>Let's level up your brand, together</h1>
+                <p>you can reach us anytime via</p>
+                <p>services@thebimskills.com</p>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" placeholder="your name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="you@company.com" required>
+
+                <label for="contact">Contact:</label>
+                <input type="text" id="contact" name="contact" placeholder="number" required>
+
+                <label for="help">How can help you?</label>
+                <textarea id="help" name="help" rows="4" placeholder="Tell us a little about the project...." required></textarea>
+
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </div>
+    <!-- content upper section -->
+     <div class="upcont">
+        <p class="pq1">Any Problem Contect us</p>
+        <h1>We'd love to help you</h1>
+       <p class="pq2">Our friendly team is always here to help </p>
+     </div>
+
+     <!-- information section  -->
+     <section class="why_us" id="why">
+        
+        <div class="section_container">
+          <div class="why_container">
+            <div class="why_items">
+              <img src="mail.png" width="2px" alt="De"  >
+              <div class="why_us_text">
+                <h3>Email</h3>
+                <p>Our friendly team is here to help </p>
+                <p class="mail">services@thebimskills.com</p>
+              </div>
+            </div>
+            <div class="why_items">
+              <img src="location.png" width="2px" height="50px" alt="Ple" />
+              <div class="why_us_text">
+                <h3>Office</h3>
+                <p>Come say hello at our office HQ.</p>
+                <p>First Floor,RS Complex, Opp Bombay Building Near GND Eng, Collage, Bilder-585401,Karnataka(INDIA)</p>
+              </div>
+            </div>
+            <div class="why_items">
+              <img src="phone.png"  height="50px" width="20px" alt="Hos" />
+              <div class="why_us_text">
+                <h3>Phone</h3>
+                <p>Mon-Fri from 8am to 5pm.
+                </p>
+                <p>+918197029799</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- footer section -->
+      <footer>
+        <div class="section_container">
+          <div class="footer_section">
+            <div class="footer_logo">
+                <img src="cl1.png" alt="" width="200px">
+               <p>The BMI skills is an innovovative,value driven,</p>
+               <p>Real-time Project Oriented,Quality based BIM </p>
+               <p>  Training & Consulting Company. </p>
+                 <p> copyright@2022.All rights </p>
+                 </p>  reserved | The BIM skills</p>
+               </div>
+            <div class="useful_links">
+              <h3>Company Info</h3>
+              <ul>
+                <li><a href="#about">The BIM skills for Business</a></li>
+                <li><a href="#service">Teach on the  bim skills</a></li>
+                <li><a href="#why">Get the app</a></li>
+                <li><a href="#gallery">About us</a></li>
+                <li><a href="#contact">Contact us</a></li>
+              </ul>
+            </div>
+            <div class="contact_us">
+              <h3> Support Zone </h3>
+              <ul>
+               <li>Unlock Your Potential</li>
+               <li>Privacy policy and cookie policy</li>
+               <li>Sitemap</li>
+               <li>Featured courses</li>
+               <li>Join Us</li>
+              </ul>
+            </div>
+            <div class="follow_us">
+              <h3>Explore Services</h3>
+             <ul>
+                <li>Home</li>
+                <li>Careers</li>
+                <li>Blog</li>
+                <li>Help and Support</li>
+                <li>Terms</li>
+                <li>Certificate Verification</li>
+                <li>Free course</li>
+             </ul>
+            </div>
+          </div>
+        </div>
+      </footer>
+     
+</body>
+</html>
+
+
+

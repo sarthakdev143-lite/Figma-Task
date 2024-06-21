@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment Form</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.13/css/intlTelInput.css" />
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            /* display: flex; */
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            /* background-color: #f4f4f4; */
+        }
+
+        .img1 img {
+            width: 216px;
+            height: 65px;
+            top: 31px;
+            left: 52px;
+            gap: 0px;
+            opacity: 0px;
+
+        }
+
+
+        .container {
+            display: flex;
+            /* background-color: #fff; */
+            border-radius: 8px;
+            /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
+            max-width: 800px;
+            width: 100%;
+            /* font-weight: bold; */
+        }
+
+        .payment-details,
+        .order-details {
+            padding: 20px;
+            width: 50%;
+
+        }
+
+        .payment-details h2,
+        .order-details h2 {
+            margin-top: 0;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+        }
+
+        label {
+            margin: 10px 0 5px;
+        }
+
+        input {
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid;
+            border-radius: 4px;
+        }
+
+        /* payment detail */
+        .input-icon {
+            position: relative;
+
+
+        }
+
+        .input-icon i {
+            position: absolute;
+            left: 10px;
+            top: 50%;
+            transform: translateY(-50%);
+            color: #666;
+
+        }
+
+        /* zip code and city */
+
+        .address-details {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .address-details .zip-code,
+        .address-details .city {
+            flex: 1;
+            margin-right: 10px;
+        }
+
+
+        button {
+            padding: 10px;
+            background-color: black;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: green;
+        }
+
+        .order-details ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .order-details li {
+            margin: 10px 0;
+        }
+
+        hr {
+            margin: 20px 0;
+        }
+
+
+        /* second section  */
+        .order-details .item {
+            display: flex;
+            align-items: center;
+            margin-bottom: 15px;
+        }
+
+        .order-details img {
+            width: 200px;
+            height: 150px;
+            margin-right: 90px;
+        }
+
+        .order-details .item-info {
+            display: flex;
+
+            justify-content: space-between;
+            width: 100%;
+        }
+
+        .order-details .price {
+            font-weight: bold;
+        }
+
+        .order-details hr {
+            margin: 20px 0;
+        }
+
+        .order-details .total {
+            font-size: 1.2em;
+            font-weight: bold;
+            text-align: right;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="img1">
+        <img src="cl1.png" alt="">
+    </div>
+    <div class="container">
+        <div class="payment-details">
+            <h2>Payment Details</h2>
+            <form>
+                <label for="cardholder-name">Email</label>
+                <input type="email" id="cardholder-name" name="cardholder-name" placeholder="Example@youremail.com"
+                    required>
+
+                <label for="phone-number">Phone Number</label>
+                <input type="text" id="phone-number" name="phone-number" required>
+
+                <label for="card-number">Payment method</label>
+                <div class="input-icon">
+                    <i class="fas fa-credit-card"></i>
+                    <input type="text" id="cardnumber" name="card-number" placeholder="       card type" required>
+
+                </div>
+                <label for="cardholder-name">Card holder name</label>
+                <input type="email" id="cardholder-name" name="cardholder-name" placeholder="Ex. Joy Lawson" required>
+
+                <label for="cardholder-name">Billing address</label>
+                <input type="email" id="cardholder-name" name="cardholder-name" placeholder="united state" required>
+
+                <div class="address-details">
+                    <div class="zip-code">
+                        <label for="zip-code">Zip Code</label>
+                        <input type="text" id="zip-code" name="zip-code" placeholder="Ex.73923" required>
+                    </div>
+                    <div class="city">
+                        <label for="city">City</label>
+                        <input type="text" id="city" name="city" placeholder="Ex. new york" required>
+                    </div>
+                </div>
+
+                <label for="cvv">CVV</label>
+                <input type="text" id="cvv" name="cvv" required>
+
+                <p> Billing address is same as shipping</p>
+                <button type="submit">Pay rs 60,998.00</button>
+            </form>
+        </div>
+        <div class="order-details">
+            <!-- <h2>Order Details</h2>
+            <ul>
+                <li>Item 1: $10.00</li>
+                <li>Item 2: $20.00</li>
+                <li>Item 3: $30.00</li>
+            </ul>
+            <hr>
+            <p>Total: $60.00</p>
+        </div> -->
+
+            <div class="order-details">
+                <h2>Your Order</h2>
+                <div class="item">
+                    <img src="paym.png" alt="Item 1">
+                    <div class="item-info">
+                        <p>BIM Professional-</p>
+                        <p class="price">RS 29,999.00</p>
+                        <p>Architecture(Basics to Pro Level)</p>
+
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="paym.png" alt="Item 2">
+                    <div class="item-info">
+                        <p>BIM Professional-</p>
+                        <p>Architecture(Basics to Pro Level)</p>
+                        <p class="price">RS 29,999.00</p>
+                    </div>
+                </div>
+                <h3>Discount Code</h3>
+                <input type="text" id="" name="" placeholder="Discount Code" required><br>
+
+                <input type="text" placeholder="Subtotal            rs 60,998.00 ">
+
+
+                <hr>
+                <p class="total">Total: $60.00</p>
+            </div>
+        </div>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.13/js/intlTelInput.min.js"></script>
+        <script>
+            const phoneInputField = document.querySelector("#phone-number");
+            const phoneInput = window.intlTelInput(phoneInputField, {
+                initialCountry: "auto",
+                geoIpLookup: function (callback) {
+                    fetch('https://ipinfo.io?token=YOUR_TOKEN_HERE', { headers: { 'Accept': 'application/json' } })
+                        .then((resp) => resp.json())
+                        .then((resp) => callback(resp.country))
+                        .catch(() => callback("us"));
+                },
+                utilsScript: "https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.13/js/utils.js",
+            });
+        </script>
+
+</body>
+
+</html>
